@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  telegramConfig: {
+    appId: 1091818,
+    appHashKey: 'd7e813923dacdea56b7b64779247b3b5'
+  }
 };
 
 /*
